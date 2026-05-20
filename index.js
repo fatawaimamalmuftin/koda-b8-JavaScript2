@@ -3,7 +3,7 @@ let max = 0;
 let min = 100;
 let avg = 0;
 
-function Acmlr(num) {
+function Acumulator(num) {
   for (let i = 0; i < num.length; i++) {
     if (num[i] > max) {
       if (isNaN(num[i]) || !(typeof num[i] === "string")) {
@@ -28,7 +28,7 @@ function Acmlr(num) {
   avg /= num.length;
   return avg;
 }
-Acmlr([5, 4, 3, 2, 1, 6, 7, 10, 8, 9]);
+Acumulator([5, 4, 3, 2, 1, 6, 7, 10, 8, 9]);
 
 console.log(max);
 console.log(min);
