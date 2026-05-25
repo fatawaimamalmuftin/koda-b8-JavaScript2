@@ -10,7 +10,7 @@
 /**
  * Menghitung nilai tertinggi, terrendah, dan rata-rata dari isi array number
  * @param {Array<number>} num array contains numbers
- * @returns {hasil} results of calculating the highest value, lowest value, and average of a set of numbers in an array
+ * @returns {max, min, avg} results of calculating the highest value, lowest value, and average of a set of numbers in an array
  */
 
 export function Acumulator(num) {
